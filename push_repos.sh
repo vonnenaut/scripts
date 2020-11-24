@@ -1,7 +1,7 @@
 #!/bin/bash
 
 echo "Updating local repo from remote ..."
-source update_repos.sh
+source pull_repos.sh
 
 GREET=$'\n\n---------- Committing git repos: ----------'
 echo "$GREET"
