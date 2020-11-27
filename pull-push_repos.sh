@@ -4,7 +4,7 @@ MESSAGE=$'\n\n\n\nPulling changes to local repo from remote ...'
 echo "$MESSAGE"
 source pull_repos.sh
 
-MESSAGE=$'Pull complete.  Begin push ...\n\n'
+MESSAGE=$'\n\nPull complete.  Begin push ...\n'
 echo "$MESSAGE"
 
 for dir in scripts c_programming learn_c_thw js210 java_masterclass codewars exercism
