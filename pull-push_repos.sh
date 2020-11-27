@@ -1,10 +1,11 @@
 #!/bin/bash
 
-echo "\n\n\n\nUpdating local repo from remote ..."
+MESSAGE=$'\n\n\n\nUpdating local repo from remote ...'
+echo "$MESSAGE"
 source pull_repos.sh
 
-GREET=$'\n---------- Committing git repos: ----------'
-echo "$GREET"
+MESSAGE=$'\n---------- Committing git repos: ----------'
+echo "$MESSAGE"
 
 for dir in scripts c_programming learn_c_thw js210 java_masterclass codewars exercism
 do
