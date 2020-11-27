@@ -19,3 +19,6 @@ do
   echo "$SPACE"
 done
 
+MESSAGE=$'---------- All repos synced. ----------'
+echo "$MESSAGE"
+
