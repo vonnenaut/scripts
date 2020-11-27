@@ -5,6 +5,7 @@ echo "$MESSAGE"
 source pull_repos.sh
 
 MESSAGE=$'Pull complete.  Begin push ...\n\n'
+echo "$MESSAGE"
 
 for dir in scripts c_programming learn_c_thw js210 java_masterclass codewars exercism
 do
