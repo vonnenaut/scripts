@@ -1,4 +1,4 @@
-#!/bin/bash
+!/bin/bash
 
 MESSAGE=$'\n\n\n\nUpdating local repo from remote ...'
 echo "$MESSAGE"
