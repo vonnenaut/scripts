@@ -15,6 +15,6 @@ do
   git add .
   git commit -m "automated sync commit for $dir"
   git push
-  ech0 "\n\n"
+  echo "\n\n"
 done
 
