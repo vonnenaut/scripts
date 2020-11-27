@@ -15,6 +15,7 @@ do
   git add .
   git commit -m "automated sync commit for $dir"
   git push
-  echo "\n\n"
+  SPACE=$'\n\n'
+  echo "$SPACE"
 done
 
