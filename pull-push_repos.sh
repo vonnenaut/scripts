@@ -2,7 +2,7 @@
 
 MESSAGE=$'\n\n\n\n########## Pulling changes to local repo from remote ... ##########'
 echo "$MESSAGE"
-source ./pull_repos.sh
+source ./scripts/pull_repos.sh
 
 MESSAGE=$'\n\n########## Pull complete.  Begin push ... ##########\n'
 echo "$MESSAGE"
