@@ -7,7 +7,7 @@ source ./pull_repos.sh
 MESSAGE=$'\n\n########## Pull complete.  Begin push ... ##########\n'
 echo "$MESSAGE"
 
-for dir in scripts c_programming learn_c_thw js210 java_masterclass codewars exercism
+for dir in scripts intro-info-sec hci c_programming learn_c_thw js210 java_masterclass codewars
 do
   cd ~/$dir
   STR=$'Pushing local changes to'
