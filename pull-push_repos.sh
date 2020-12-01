@@ -2,12 +2,12 @@
 
 MESSAGE=$'\n\n\n\n########## Pulling changes to local repo from remote ... ##########'
 echo "$MESSAGE"
-source ./pull_repos.sh
+source ./scripts/pull_repos.sh
 
 MESSAGE=$'\n\n########## Pull complete.  Begin push ... ##########\n'
 echo "$MESSAGE"
 
-for dir in scripts intro-info-sec hci c_programming learn_c_thw js210 java_masterclass codewars
+for dir in scripts omscs/intro-info-sec omscs/hci c_programming learn_c_thw js210 java_masterclass codewars
 do
   cd ~/$dir
   STR=$'Pushing local changes to'
