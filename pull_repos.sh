@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for dir in scripts apis_ruby game_designs learn_java_thw kandr-c_prog_lang c_programming learn_c_thw js210 java_masterclass codewars
+for dir in scripts c_learning java_learning js210 apis_ruby game_designs codewars
 do
   cd ~/$dir
   STR=$'\n\nChecking for changes to'
