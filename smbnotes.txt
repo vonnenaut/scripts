@@ -1,0 +1,2 @@
+gio mount smb://TK421/movies
+
