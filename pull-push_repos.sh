@@ -1,7 +1,9 @@
 #!/bin/bash
 
-MESSAGE=$'\n\n\n\n########## Checking for remote changes to pull ... ##########'
-echo "$MESSAGE"
+host=`hostname`
+
+MESSAGE=$'\n\n\n\n########## Checking for remote changes to pull to'
+echo "$MESSAGE $host ... #####"
 
 dirArray=(scripts omscs/gios omscs/sad apis_ruby unity_learning game_designs cplusplus_learning java_learning c_learning js210 codewars)
 
@@ -17,11 +19,8 @@ do
   fi
 done
 
-MESSAGE=$'\n\n########## Pull check complete.  Begin check for local changes to push ... ##########\n'
-echo "$MESSAGE"
-
-host=cat "/etc/hostname"
-echo "$host"
+MESSAGE=$'\n\n########## Pull check complete.  Begin check for local changes'
+echo "$MESSAGE on $host to push ... #####"
 
 for dir in "${dirArray[@]}" 
 do
