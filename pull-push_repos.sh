@@ -20,13 +20,16 @@ done
 MESSAGE=$'\n\n########## Pull check complete.  Begin check for local changes to push ... ##########\n'
 echo "$MESSAGE"
 
+host=cat "/etc/hostname"
+echo "$host"
+
 for dir in "${dirArray[@]}" 
 do
   cd ~/$dir
   STR=$'Pushing local changes to'
   echo "$STR $dir ..."
   git add .
-  git commit -m "automated sync commit for $dir"
+  git commit -m "automated sync commit for $dir on $host"
   git push
   SPACE=$'\n\n'
   echo "$SPACE"
