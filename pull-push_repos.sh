@@ -19,6 +19,7 @@ do
   fi
 done
 
+# TODO: https://stackoverflow.com/questions/5143795/how-can-i-check-in-a-bash-script-if-my-local-git-repository-has-changes
 MESSAGE=$'\n\n########## Pull check complete.  Begin check for local changes'
 echo "$MESSAGE on $host to push ... #####"
 
