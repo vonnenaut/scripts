@@ -5,7 +5,7 @@ host=`hostname`
 MESSAGE=$'\n\n\n\n########## Checking for remote changes to pull to'
 echo "$MESSAGE $host ... #####"
 
-dirArray=(scripts munit omscs/gios omscs/sad apis_ruby unity_learning game_designs cplusplus_learning java_learning c_learning js210 codewars)
+dirArray=(scripts notes leetcode omscs/sdp omscs/gios omscs/sad apis_ruby unity_learning game_designs cplusplus_learning java_learning c_learning js210)
 
 for dir in "${dirArray[@]}" 
 do

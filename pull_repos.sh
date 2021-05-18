@@ -1,6 +1,6 @@
 #!/bin/bash
 
-dirArray=(scripts munit omscs/gios omscs/sad apis_ruby unity_learning game_designs cplusplus_learning java_learning c_learning js210 codewars)
+dirArray=(scripts leetcode munit omscs/gios omscs/sad apis_ruby unity_learning game_designs cplusplus_learning java_learning c_learning js210)
 
 for dir in "${dirArray[@]}" 
 do
